@@ -1,0 +1,51 @@
+#container{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid black;/ */
+}
+
+#main-text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    margin: 20px 0;
+    display: flex;
+}
+
+#filter-btns{
+    text-align: center;
+    margin: 10px;
+}
+button{
+    margin: 5px;
+}
+
+#menu article{
+    display: inline-block;
+    margin: 10px;
+}
+.card{
+    max-height: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#icons{
+    float: right;
+    flex: 1;
+    
+}
+i:hover{
+    transform: rotate(3deg);
+}
+#branding{
+    flex: 10;
+    margin-left:45px; 
+    
+}
+.hide-form{
+    visibility: hidden;
+}
+.show-form{
+    visibility: visible;
+}
